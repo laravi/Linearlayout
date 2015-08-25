@@ -7,6 +7,8 @@
 //
 
 #import "TableLayout.h"
+#import "TableRow.h"
+#import "TableCell.h"
 
 @implementation TableLayout
 {
@@ -21,10 +23,10 @@
         _columns = column;
         
         for (int i=0; i<row; i++) {
-            LinearLayout *tableRow = [[LinearLayout alloc] initWithOrientation:LayoutViewOrientationHorizontal];
+            TableRow *tableRow = [[TableRow alloc] initWithOrientation:LayoutViewOrientationHorizontal];
             tableRow.translatesAutoresizingMaskIntoConstraints = NO;
             for (int j=0; j<column; j++) {
-                LinearLayout *tableCell = [[LinearLayout alloc] initWithOrientation:LayoutViewOrientationVertical];
+                TableCell *tableCell = [[TableCell alloc] initWithOrientation:LayoutViewOrientationVertical];
                 tableCell.translatesAutoresizingMaskIntoConstraints = NO;
                 [tableCell addItem:[self textViewWithText:@"test"]];
                 

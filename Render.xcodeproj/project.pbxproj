@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FF1842DC1B74CFDD000C3F1C /* ZWTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1842DB1B74CFDD000C3F1C /* ZWTextView.m */; };
+		FF2B18611B81DBF500F00719 /* TableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2B18601B81DBF500F00719 /* TableRow.m */; };
+		FF2B18641B81DC1B00F00719 /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2B18631B81DC1B00F00719 /* TableCell.m */; };
 		FF2D89461B1DC371002FB916 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D89451B1DC371002FB916 /* main.m */; };
 		FF2D89491B1DC371002FB916 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D89481B1DC371002FB916 /* AppDelegate.m */; };
 		FF2D894C1B1DC371002FB916 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D894B1B1DC371002FB916 /* ViewController.m */; };
@@ -16,6 +18,7 @@
 		FF2D89541B1DC371002FB916 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF2D89521B1DC371002FB916 /* LaunchScreen.xib */; };
 		FF2D89601B1DC371002FB916 /* RenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D895F1B1DC371002FB916 /* RenderTests.m */; };
 		FF4BB69B1B3B89EA00ABBD33 /* TableLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4BB69A1B3B89EA00ABBD33 /* TableLayout.m */; };
+		FF87A2E01B8C6D780067ED0B /* ZWParaStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = FF87A2DF1B8C6D780067ED0B /* ZWParaStyle.m */; };
 		FFDC665C1B1EC67B003882EF /* LinearLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDC665B1B1EC67B003882EF /* LinearLayout.m */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +35,10 @@
 /* Begin PBXFileReference section */
 		FF1842DA1B74CFDD000C3F1C /* ZWTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWTextView.h; sourceTree = "<group>"; };
 		FF1842DB1B74CFDD000C3F1C /* ZWTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWTextView.m; sourceTree = "<group>"; };
+		FF2B185F1B81DBF500F00719 /* TableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableRow.h; sourceTree = "<group>"; };
+		FF2B18601B81DBF500F00719 /* TableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableRow.m; sourceTree = "<group>"; };
+		FF2B18621B81DC1B00F00719 /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		FF2B18631B81DC1B00F00719 /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
 		FF2D89401B1DC370002FB916 /* Render.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Render.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2D89441B1DC370002FB916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF2D89451B1DC371002FB916 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +54,8 @@
 		FF2D895F1B1DC371002FB916 /* RenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RenderTests.m; sourceTree = "<group>"; };
 		FF4BB6991B3B89EA00ABBD33 /* TableLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableLayout.h; sourceTree = "<group>"; };
 		FF4BB69A1B3B89EA00ABBD33 /* TableLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableLayout.m; sourceTree = "<group>"; };
+		FF87A2DE1B8C6D780067ED0B /* ZWParaStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWParaStyle.h; sourceTree = "<group>"; };
+		FF87A2DF1B8C6D780067ED0B /* ZWParaStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWParaStyle.m; sourceTree = "<group>"; };
 		FFDC665A1B1EC67B003882EF /* LinearLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearLayout.h; sourceTree = "<group>"; };
 		FFDC665B1B1EC67B003882EF /* LinearLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,8 +107,14 @@
 				FFDC665B1B1EC67B003882EF /* LinearLayout.m */,
 				FF4BB6991B3B89EA00ABBD33 /* TableLayout.h */,
 				FF4BB69A1B3B89EA00ABBD33 /* TableLayout.m */,
+				FF2B185F1B81DBF500F00719 /* TableRow.h */,
+				FF2B18601B81DBF500F00719 /* TableRow.m */,
+				FF2B18621B81DC1B00F00719 /* TableCell.h */,
+				FF2B18631B81DC1B00F00719 /* TableCell.m */,
 				FF2D894A1B1DC371002FB916 /* ViewController.h */,
 				FF2D894B1B1DC371002FB916 /* ViewController.m */,
+				FF87A2DE1B8C6D780067ED0B /* ZWParaStyle.h */,
+				FF87A2DF1B8C6D780067ED0B /* ZWParaStyle.m */,
 				FF2D894D1B1DC371002FB916 /* Main.storyboard */,
 				FF2D89501B1DC371002FB916 /* Images.xcassets */,
 				FF2D89521B1DC371002FB916 /* LaunchScreen.xib */,
@@ -236,10 +251,13 @@
 			files = (
 				FF4BB69B1B3B89EA00ABBD33 /* TableLayout.m in Sources */,
 				FFDC665C1B1EC67B003882EF /* LinearLayout.m in Sources */,
+				FF87A2E01B8C6D780067ED0B /* ZWParaStyle.m in Sources */,
 				FF2D894C1B1DC371002FB916 /* ViewController.m in Sources */,
 				FF2D89491B1DC371002FB916 /* AppDelegate.m in Sources */,
 				FF1842DC1B74CFDD000C3F1C /* ZWTextView.m in Sources */,
 				FF2D89461B1DC371002FB916 /* main.m in Sources */,
+				FF2B18641B81DC1B00F00719 /* TableCell.m in Sources */,
+				FF2B18611B81DBF500F00719 /* TableRow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  EditorView.m
+//  LinearLayout.m
 //  Render
 //
 //  Created by Vignesh Ramesh on 03/06/15.

@@ -1,5 +1,5 @@
 //
-//  EditorView.h
+//  LinearLayout.h
 //  Render
 //
 //  Created by Vignesh Ramesh on 03/06/15.

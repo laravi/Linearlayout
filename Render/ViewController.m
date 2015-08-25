@@ -232,16 +232,6 @@
 //    [UIView commitAnimations];
 }
 
-- (LinearLayout *)newHorizontalView
-{
-    return nil;
-}
-
-- (LinearLayout *)newVerticalView
-{
-    return nil;
-}
-
 // TextView delegates
 
 -(void)textViewDidChangeSelection:(UITextView *)textView
@@ -279,10 +269,10 @@
     return editorView;
 }
 
--(void)scrollViewDidZoom:(UIScrollView *)scrollView
-{
-    scrollView.center = self.view.center;
-}
+//-(void)scrollViewDidZoom:(UIScrollView *)scrollView
+//{
+//    scrollView.center = self.view.center;
+//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
